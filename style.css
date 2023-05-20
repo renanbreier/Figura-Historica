@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap);
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:wght@500 & display=swap');
+
+/* Background */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.background {
+    background-color: black;
+    background-image:
+            radial-gradient(#e25c5c, rgba(232, 213, 213, 0.28) 2px, transparent 40px),
+            radial-gradient(#af0101, rgba(232, 213, 213, 0.15) 1px, transparent 30px),
+            radial-gradient(#de1616, rgba(232, 213, 213, 0.34) 2px, transparent 40px),
+            radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+/* Títulos */
+.titulo {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 65px;
+    text-shadow: -5px 10px 10px rgb(124, 10, 10);
+}
+
+.container_titulo {
+    padding-left: 480px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+/* Imagem */
+.imagem {
+    border: thin rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: auto 0;
+    border-radius: 1%;
+    background-image: linear-gradient(#591c1c, #2d0404);
+
+}
+
+.imagem img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 1%;
+
+}
+
+.imagem figcaption {
+    color: white;
+}
+
+.imagem:hover {
+    background-image: linear-gradient(rgb(112, 11, 11), rgb(201, 24, 39));
+    .legenda {
+        background-color: rgb(201, 24, 39);
+    }
+}
+
+.box_imagem {
+    padding-inline-start: 0%;
+}
+
+/* Legenda */
+.legenda {
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: wavy;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin: auto;
+    color: black;
+    background-color: #2d0404;
+}
+
+/* Citação */
+.citacao {
+    padding-top: 20px;
+    margin-left: 700px;
+    font-style: italic;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    text-shadow: -5px 5px 5px rgb(124, 10, 10);
+}
+
+.trad_citacao {
+    padding-top: 10px;
+    margin-left: 160px;
+    font-style: italic;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 15px;
+    text-shadow: -5px 5px 5px rgb(200, 24, 39);
+}
+
+/* Fontes */
+.font {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.font_2 {
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.font_ref:hover {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: rgb(255, 234, 164);
+}
+
+/* Parágrafos */
+.paragrafo {
+    padding-left: 50px;
+    padding-right: auto 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.titulo2 h2{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 65px;
+    text-shadow: -5px 10px 10px rgb(124, 10, 10);
+}
+
+.musica {
+    display: flex;
+    justify-content: space-between;
+}
+.container_lista-nao-ordenada {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.container_lista-nao-ordenada img {
+    width: 20px;
+    height: 20px;
+}
+
+.playlist{
+    padding-right: 220px;
+}
+
+.container_lista-ordenada {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.container_lista-ordenada li{
+    margin: 18px;
+}
+
+.container_ref {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    font-family: 'Share Tech Mono', monospace;
+}
